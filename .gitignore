@@ -1,0 +1,25 @@
+*.exe
+*.g
+*g.c
+*.o
+*py
+*.swift
+*.txt
+*.code-profile
+*.h
+
+# ignore all C source files except course_grader.c
+*.c
+!course_grader.c
+
+# ignore generated build directories
+bin/
+Debug/
+obj/
+
+# ignore project files and others
+*.cbp
+*.depend
+*.layout
+flowchart
+grade_flowchart
