@@ -10,7 +10,7 @@
 
 # ignore all C source files except course_grader.c
 *.c
-!course_grader.c
+!course_grader.c.C
 
 # ignore generated build directories
 bin/
